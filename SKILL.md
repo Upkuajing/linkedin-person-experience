@@ -1,7 +1,7 @@
 ---
 name: linkedin-person-experience
-description: Official skill for upkuajing (跨境魔方). Query work experience list (工作经历列表) from LinkedIn data. Get person work history including company names, job titles, and employment dates, with cursor-based pagination.
-metadata: {"version":"1.0.0","homepage":"https://www.upkuajing.com","clawdbot":{"emoji":"💼","requires":{"bins":["python"],"env":["UPKUAJING_API_KEY"]},"primaryEnv":"UPKUAJING_API_KEY"}}
+description: "Check LinkedIn work history via personnel‑ID. Review previous employers and job timelines for background verification and candidate screening.\n\nTrigger: LinkedIn career history lookup, verify professional experience, candidate background check, employment timeline review, talent‑acquisition research"
+metadata: {"version":"1.0.1","homepage":"https://www.upkuajing.com","clawdbot":{"emoji":"💼","requires":{"bins":["python"],"env":["UPKUAJING_API_KEY"]},"primaryEnv":"UPKUAJING_API_KEY"}}
 ---
 
 # LinkedIn Person Work Experience Query
@@ -158,5 +158,7 @@ Other UpKuaJing skills you might find useful:
 - global-company-person-search — Search people from the global company database
 - upkuajing-global-company-people-search — Unified company and people search across all sources
 - upkuajing-contact-info-validity-check — Check contact info validity
-- upkuajing-email-tool — Email verification and sending tool
+- phone-validity-check — Check phone number validity
+- email-validity-check — Check email address validity
+- domain-validity-check — Check domain validity and security- upkuajing-email-tool — Email verification and sending tool
 - upkuajing-sms-tool — SMS tool
